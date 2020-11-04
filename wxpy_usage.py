@@ -2,7 +2,7 @@ from wxpy import *
 
 
 class WechatAlarm:
-    def __init__(self, contact_name='Ian Choong'):
+    def __init__(self, contact_name='Tecsun'):
         self.bot = Bot()
         self.my_friend = self.bot.friends().search(contact_name)[0]
 
